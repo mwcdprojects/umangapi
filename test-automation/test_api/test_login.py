@@ -16,7 +16,7 @@ class test_userauthentication:
         print("Passing incorrect password to validate failure")
         endpoint = self.url.format(self.loginid, self.password) + "abc"
         resposne = requests.get(endpoint)
-        print("Resposne: {}".format(resposne.json()))
+        print("Response: {}".format(resposne.json()))
         assert resposne.json()['status'] == 'failure'
         assert resposne.json()['errMsg'] == 'Email or Password not found'
 
@@ -25,7 +25,7 @@ class test_userauthentication:
         print("Passing Valid credentials to validate successful login")
         endpoint = self.url.format(self.loginid, self.password)
         resposne = requests.get(endpoint)
-        print("Resposne: {}".format(resposne.json()))
+        print("Response: {}".format(resposne.json()))
         assert resposne.json()['status'] == 'success'
 
 
