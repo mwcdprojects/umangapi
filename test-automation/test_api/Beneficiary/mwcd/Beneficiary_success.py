@@ -40,7 +40,7 @@ class test_Beneficiary_registration:
 
     def test_registration(self):
         print("Generate registration payload")
-        with open(str(Path(__file__).parents[1])+"\\Beneficiary\\payloads\\Registration.json")as f1:
+        with open(str(Path(__file__).parents[1])+"\\payloads\\Registration.json")as f1:
             payload = json.loads(f1.read())
         authdata = test_Beneficiary_registration().authtoken_userid()
         payload['AuthToken'] = authdata['AuthToken']
