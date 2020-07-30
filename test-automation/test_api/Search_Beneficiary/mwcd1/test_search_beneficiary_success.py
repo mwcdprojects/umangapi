@@ -23,7 +23,7 @@ class test_search_beneficiary:
 
     def test_search_ben(self):
         print("Generate registration payload")
-        with open(str(Path(__file__).parents[1])+"\\Beneficiary\\payloads\\search_ben.json")as f1:
+        with open(str(Path(__file__).parents[1])+"\\mwcd1\\search_ben.json")as f1:
             payload = json.loads(f1.read())
         authdata = test_search_beneficiary().authtoken_userid()
         payload['LoginAuthToken'] = authdata['AuthToken']
