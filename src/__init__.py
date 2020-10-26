@@ -1,2 +1,11 @@
 class URLs:
-    userauthenticationurl = "https://mwcd1.fundright.in/umangapi/PMMVY_UserAuth?Username={}&Password={}"
+    userauthenticationurl = "https://mwcd1.fundright.in/umangapi/PMMVY_UserAuth?"
+    beneficiary_registration = "https://mwcd1.fundright.in/umangapi/PMMVY_BenReg"
+    userauthenticationurl_tr9 = "http://training9.pmmvy-cas.nic.in/umangapi/PMMVY_UserAuth"
+    beneficiary_registration_tr9 = "http://training9.pmmvy-cas.nic.in/UmangAPI/PMMVY_BenReg"
+    search_beneficiary_mwcd1 = "https://mwcd1.fundright.in/UmangAPI/PMMVY_SearchBen"
+    search_beneficiary_tr9 = "http://training9.pmmvy-cas.nic.in/UmangAPI/PMMVY_SearchBen"
+    forget_pwd_mwcd1 = "https://mwcd1.fundright.in//umangapi/PMMVY_ForgotPassword"
+    change_pwd_mecd1 = "https://mwcd1.fundright.in/umangapi/PMMVY_ChangePassword?key1=bmlybWFsQGJpbGxpb25saXZlcy5pbg==&key2=cfe35e47-8d62-4f6c-9729-d85b76012e26"
+    correction_queue = "https://mwcd1.fundright.in/UmangAPI/PMMVY_CorrQueue"
+    correction_list = "https://mwcd1.fundright.in/UmangAPI/PMMVY_CorrList"

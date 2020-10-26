@@ -6,9 +6,9 @@ import json
 class test_userauthentication:
 
     def __init__(self):
-        self.loginid = credentials.ffdeo_user['ffdeouserlogin']
-        self.password = credentials.ffdeo_user['encryptedpassword']
-        self.url = URLs.userauthenticationurl
+        self.loginid = credentials.ffdeo_user['ffdeouserlogin_tr9']
+        self.password = encrypt_decrypt.encryptString(credentials.ffdeo_user['ffdeouserpassword_tr9'],credentials.ffdeo_user['key']).decode('utf-8')
+        self.url = URLs.userauthenticationurl_tr9
 
     def test_login_failure(self):
         print("Access User Authenticationapi")
