@@ -1,0 +1,22 @@
+{
+	"ID":null,
+	"BeneficiaryID":"13796410",
+	"ClaimID":"3",
+	"DateOfDelivery":"2020-01-08",
+	"LiveMaleChildren":"0",
+	"LiveFemaleChildren":"1",
+	"BCG":"True",
+	"OPV":"True",
+	"DPT1":"True",
+	"DPT2":"True",
+	"ClaimAmount":"2000",
+	"ClaimDate":"2020-08-02",
+	"DeliveryNumber":1,
+	"FieldFunctionaryID" : 590967,
+	"ImmunizationDate":"2020-08-01",
+	"DeliveryCount":1,
+	"InstituteOfDelivery":"T-Hosp",
+	"IsGovtInstitute":"True",
+	"UserId" : 325121,
+	"AuthToken" : "d7005dcc-413e-4ec8-8784-dcf1aba86f03"
+}
